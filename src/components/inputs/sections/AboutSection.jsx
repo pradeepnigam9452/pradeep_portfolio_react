@@ -5,7 +5,7 @@ import { JOURNEY_STEPS, PASSIONS } from "../../../utils/data";
 export default function AboutSection() {
   const { isDarkMode } = useTheme();
 
-  const SKILLS = ["Anime", "Reading", "Music", "Travel", "Sports", "Esports"];
+  const SKILLS = [ "Reading", "Music", "Travel", "Sports", "Esports"];
   const STATS = [
     { label: "Projects", value: "15+" },
     { label: "GitHub Stars", value: "120+" },

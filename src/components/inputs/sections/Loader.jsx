@@ -5,7 +5,7 @@ import { Code2 } from "lucide-react";
 export default function PageLoader() {
   const [isLoading, setIsLoading] = useState(true);
   const [displayText, setDisplayText] = useState("");
-  const fullText = "Aniket Gavali";
+  const fullText = "Pradeep Nigam";
 
   useEffect(() => {
     const timer = setTimeout(() => setIsLoading(false), 3400);

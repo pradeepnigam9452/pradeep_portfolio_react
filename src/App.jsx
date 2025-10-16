@@ -13,7 +13,7 @@ const App = () => {
   return (
     <ThemeProvider>
     <div>
-      {/* <PageLoader/> */}
+      <PageLoader/>
       <Navbar />
       <HeroSection />
       <SkillsSection/>

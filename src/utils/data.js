@@ -22,9 +22,9 @@ import { FiGithub, FiLinkedin, FiTwitter } from "react-icons/fi";
 // ===================== IMAGE IMPORTS =====================
 import PROJECT_IMG_1 from "../assets/images/chat-app.png";
 import PROJECT_IMG_2 from "../assets/images/mysql-manager.png";
-import PROJECT_IMG_3 from "../assets/images/profile-card.png";
+import PROJECT_IMG_3 from "../assets/images/mysql-manager.png";
 import PROJECT_IMG_4 from "../assets/images/weather-app.png";
-import PROJECT_IMG_5 from "../assets/images/Portfolio.png";
+import PROJECT_IMG_5 from "../assets/images/mysql-manager.png";
 // import PROJECT_IMG_6 from "../assets/images/project-6.png";
 // import PROJECT_IMG_7 from "../assets/images/project-7.png";
 
@@ -56,25 +56,11 @@ export const STATS = [
 
 
 // ===================== CERTIFICATES =====================
-import CERT_1 from "../assets/Certificates/oracle.png";
-import CERT_2 from "../assets/Certificates/AWS-1.png";
-import CERT_3 from "../assets/Certificates/Simpli-Learn-1.png";
-import CERT_4 from "../assets/Certificates/AWS-3.png";
-import CERT_5 from "../assets/Certificates/Forage-DV.png";
-import CERT_6 from "../assets/Certificates/edurika.png";
-import CERT_7 from "../assets/Certificates/AWS-2.png";
-import CERT_8 from "../assets/Certificates/HackerRank-CSS.png";
-import CERT_9 from "../assets/Certificates/HackerRank-Frontend.png";
-import CERT_10 from "../assets/Certificates/HP-1.png";
-import CERT_11 from "../assets/Certificates/HP-2.png";
-import CERT_12 from "../assets/Certificates/Knowledge-Gate.png";
-import CERT_13 from "../assets/Certificates/AI.png";
-import CERT_14 from "../assets/Certificates/powerBi.png";
-import CERT_15 from "../assets/Certificates/be10x.png";
-import CERT_16 from "../assets/Certificates/Simpli-Learn-2.png";
-import CERT_17 from "../assets/Certificates/skyskill.png";
-import CERT_18 from "../assets/Certificates/Unified-Mentor.png";
-// …add more as needed!
+import CERT_1 from "../assets/Certificates/hakerrank.png";
+import CERT_2 from "../assets/Certificates/full_stack.jpeg";
+import CERT_3 from "../assets/Certificates/45days.png";
+
+// // …add more as needed!
 
 export const CERTIFICATES = [
   {
@@ -127,18 +113,6 @@ export const PROJECTS = [
     featured: true,
     category: "Full Stack",
   },
-  // {
-  //   id: 3,
-  //   title: "Personal Profile Card",
-  //   description:
-  //     "A Modern Looking ,Attractive Profile Card build using HTML and CSS showing up my information , skills and a little more .",
-  //   image: PROJECT_IMG_3,
-  //   tags: ["HTML 5", "CSS"],
-  //   liveUrl: "",
-  //   githubUrl: "",
-  //   featured: false,
-  //   category: "Web App",
-  // },
    {
     id: 4,
     title: "Weather App",
@@ -157,50 +131,33 @@ export const PROJECTS = [
 // ===================== JOURNEY =====================
 export const JOURNEY_STEPS = [
   {
-    year: "2020",
-    title: "Completed SSC",
+    year: "2019",
+    title: "Completed 10th",
     company: "Self-taught",
     description:
-      "Completed My SSC from Pandharpur securing 86.40%.",
+      "Completed 10th at satna MP 77 %.",
     icon: Code2,
     color: "bg-blue-500",
   },
   {
-    year: "2022",
-    title: "Completed HSC",
+    year: "2021",
+    title: "Completed 12th",
     company: "Self-taught",
     description:
-      "Completed My SSC from Pandharpur securing 70.33%.",
+      "Completed My 12th with 74 %.",
     icon: Briefcase,
     color: "bg-green-500",
   },
   {
-    year: "2023",
+    year: "2022",
     title: "Started Coding Journey",
     company: "Self-taught",
     description:
-      "Started coding Journey by taking admission to the course BCS(ECS) in Sangola College Sangola.",
+      "Started coding Journey by taking admission to the course  ... B tech (CSE) in IES UNIVERSITY BHOPAL.",
     icon: Rocket,
     color: "bg-orange-500",
   },
-//   {
-//     year: "2024",
-//     title: "Freelance & Open Source",
-//     company: "Independent",
-//     description:
-//       "Started freelancing and contributing to open source projects.",
-//     icon: Award,
-//     color: "bg-purple-500",
-//   },
-//   {
-//     year: "2025",
-//     title: "Senior Developer",
-//     company: "Present",
-//     description:
-//       "Launched multiple web applications and exploring AI integration.",
-//     icon: Zap,
-//     color: "bg-pink-500",
-//   },
+//   
 ];
 
 // ===================== PASSIONS =====================
@@ -224,10 +181,10 @@ export const PASSIONS = [
 
 // ===================== SOCIAL LINKS =====================
 export const SOCIAL_LINKS = [
-  { name: "GitHub", icon: FiGithub, url: "https://github.com/aniket-g-3101", color: "hover:text-gray-400", bgColor: "hover:bg-gray-800" },
-  { name: "LinkedIn", icon: FiLinkedin, url: "https://linkedin.com/in/aniketgavali", color: "hover:text-blue-400", bgColor: "hover:bg-blue-500/10" },
-  { name: "LeetCode", icon: FiTwitter, url: "https://leetcode.com/u/aniket-g-3101/", color: "hover:text-sky-400", bgColor: "hover:bg-sky-500/10" },
-  { name: "Email", icon: Mail, url: "mailto:aniket.g.dev@gmail.com", color: "hover:text-red-400", bgColor: "hover:bg-red-100" },
+  { name: "GitHub", icon: FiGithub, url: "https://github.com/pradeepnigam9452", color: "hover:text-gray-400", bgColor: "hover:bg-gray-800" },
+  { name: "LinkedIn", icon: FiLinkedin, url: "https://www.linkedin.com/in/pradeep-nigam-601a85269", color: "hover:text-blue-400", bgColor: "hover:bg-blue-500/10" },
+  { name: "LeetCode", icon: FiTwitter, url: "https://leetcode.com/u/pradeep_nigam/", color: "hover:text-sky-400", bgColor: "hover:bg-sky-500/10" },
+  { name: "Email", icon: Mail, url: "pradeepnigam9452@gmail.com", color: "hover:text-red-400", bgColor: "hover:bg-red-100" },
 ];
 
 // ===================== CONTACT INFO =====================

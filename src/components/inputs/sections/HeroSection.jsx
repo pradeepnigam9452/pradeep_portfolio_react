@@ -2,7 +2,7 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import { ArrowDown, Mail } from "lucide-react";
 import { FiGithub, FiLinkedin } from "react-icons/fi";
 import { useTheme } from "../../../context/ThemeContext";
-import PROFILE_PIC from "../../../assets/images/mee.jpg"; // your profile picture
+import PROFILE_PIC from "../../../assets/images/mee.jpeg"; // your profile picture
 import Resume from "../../../../public/Pradeepnigam_Resume.pdf"; // your resume file
 
 const HeroSection = () => {
