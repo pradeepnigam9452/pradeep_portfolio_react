@@ -25,25 +25,23 @@ import PROJECT_IMG_2 from "../assets/images/mysql-manager.png";
 import PROJECT_IMG_3 from "../assets/images/mysql-manager.png";
 import PROJECT_IMG_4 from "../assets/images/weather-app.png";
 import PROJECT_IMG_5 from "../assets/images/mysql-manager.png";
-// import PROJECT_IMG_6 from "../assets/images/project-6.png";
-// import PROJECT_IMG_7 from "../assets/images/project-7.png";
+import PROJECT_IMG_6 from "../assets/images/book.png"
+import PROJECT_IMG_7 from "../assets/images/pro.png";
+import PROJECT_IMG_8 from "../assets/images/portfolio.png";
 
 // ===================== TECH STACK =====================
 export const TECH_STACK = [
   "JavaScript",
   "HTML5",
-  "Sass",
+  "",
   "Webpack",
-  "Vite",
-  "Jest",
-  "Cypress",
+  "Vite",,
   "React",
   "Redux",
   "Tailwind CSS",
   "Node.js",
   "Express.js",
-  "MySQL",
-  "Notion",
+  "MongoDB",
  
 ];
 
@@ -91,25 +89,25 @@ export const CERTIFICATES = [
 export const PROJECTS = [
   {
     id: 1,
-    title: "Real-Time Chat Application",
+    title: "Property Finder ",
     description:
-      "A Real-Time Chat Application like whatsApp ,Instagram with login Authentication and Live chat rooms.",
-    image: PROJECT_IMG_1,
-    tags: ["HTML 5", "CSS", "JavaScript","WebScoket","ExpressJs"],
-    liveUrl: "",
-    githubUrl: "",
+      "A Property finder web app where we can easily find new Property .",
+    image: PROJECT_IMG_7,
+    tags: ["Node.js  express.js , ejs , mongoDB"],
+    liveUrl: "https://property-finder-rose.vercel.app/listings",
+    githubUrl: "https://property-finder-rose.vercel.app/listings",
     featured: true,
     category: "Full Stack",
   },
   {
     id: 2,
-    title: " Manager",
+    title: "Persnal Portfolio",
     description:
-      "Build a custom web-based.Secure login with session handling ,Full CRUD operations, Database & table management.",
-    image: PROJECT_IMG_2,
-    tags: ["Django", "HTML 5", "CSS", "JavaScript","MySQL"],
-    // liveUrl: "#",
-    githubUrl: "",
+      "A personal portfolio built with React and Tailwind CSS.",
+    image: PROJECT_IMG_8,
+    tags: ["react js"],
+     liveUrl: "#",
+    githubUrl: "https://github.com/pradeepnigam9452",
     featured: true,
     category: "Full Stack",
   },
@@ -125,6 +123,55 @@ export const PROJECTS = [
     featured: false,
     category: "Web App",
   },
+  {
+    id: 5,
+    title: "Book store",
+    description:
+      "Developed a responsive Book-store app with  search, autocomplete functionality, and dynamic UI that adapts to weather conditions.",
+    image: PROJECT_IMG_6,
+    tags: ["react", "Node js","express js","mongodb"],
+    liveUrl: " https://github.com/pradeepnigam9452",
+    githubUrl: "https://github.com/pradeepnigam9452",
+    featured: true,
+    category: "Web App",
+  },
+   {id: 6,
+    title: "Real-Time Chat Application",
+    description:
+      "A Real-Time Chat Application like whatsApp ,Instagram with login Authentication and Live chat rooms.",
+    image: PROJECT_IMG_1,
+    tags: ["HTML 5", "CSS", "JavaScript","WebScoket","ExpressJs"],
+    liveUrl: "",
+    githubUrl: "",
+    featured: true,
+    category: "Full Stack",
+  },
+   {
+    id: 7,
+    title: "Symptom Checker",
+   
+    description:
+      "Build a custom web-based.Secure login with session handling ,Full CRUD operations, Database & table management.",
+    image: PROJECT_IMG_2,
+    tags: ["react ,Node ,express"],
+     liveUrl: "#",
+    githubUrl: "https://github.com/pradeepnigam9452",
+    featured: false,
+    category: "Full Stack",
+  },
+   {
+    
+    id: 8,
+     title: " Manager ",
+    description:
+      "Build a custom web-based.Secure login with session handling ,Full CRUD operations, Database & table management.",
+    image: PROJECT_IMG_2,
+    tags: ["Django", "HTML 5", "CSS", "JavaScript","MySQL"],
+    // liveUrl: "#",
+    githubUrl: "",
+    featured: false,
+    category: "Full Stack",
+  }
  
 ];
 
@@ -157,6 +204,7 @@ export const JOURNEY_STEPS = [
     icon: Rocket,
     color: "bg-orange-500",
   },
+  
 //   
 ];
 

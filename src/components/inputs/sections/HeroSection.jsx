@@ -3,7 +3,7 @@ import { ArrowDown, Mail } from "lucide-react";
 import { FiGithub, FiLinkedin } from "react-icons/fi";
 import { useTheme } from "../../../context/ThemeContext";
 import PROFILE_PIC from "../../../assets/images/mee.jpeg"; // your profile picture
-import Resume from "../../../../public/Pradeepnigam_Resume.pdf"; // your resume file
+import Resume from "../../../../public/PradepRESUME.pdf"; // your resume file
 
 const HeroSection = () => {
   const { isDarkMode } = useTheme();
@@ -197,7 +197,7 @@ const HeroSection = () => {
                 className="flex justify-center space-x-6 mb-8"
               >
                 {[
-                  { icon: FiGithub, href: "https://github.com/pradeep-nigam" },
+                   { icon: FiGithub, href: "" },
                   {
                     icon: FiLinkedin,
                     href: "https://linkedin.com/in/pradeep-nigam-601a85269",
@@ -301,7 +301,7 @@ const HeroSection = () => {
                 className="flex space-x-6 mt-12"
               >
                 {[
-                  { icon: FiGithub, href: "https://github.com/pradeep-nigam" },
+                  { icon: FiGithub, href: "https://github.com/pradeepnigam9452" },
                   {
                     icon: FiLinkedin,
                     href: "https://linkedin.com/in/pradeep-nigam-601a85269",
