@@ -1,4 +1,4 @@
-// ===================== ICON IMPORTS =====================
+
 import {
   Code2,
   GraduationCap,
