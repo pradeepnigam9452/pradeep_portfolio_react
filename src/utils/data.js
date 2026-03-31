@@ -113,7 +113,7 @@ export const PROJECTS = [
   },
   {
     id: 2,
-    title: "Persnal Portfolio",
+    title: "Personal Portfolio ",
     description:
       "A personal portfolio built with React and Tailwind CSS.",
     image: PROJECT_IMG_8,
