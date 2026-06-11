@@ -15,6 +15,7 @@ import {
   Mail,
   MapPin,
   Phone,
+  GraduationCap
 } from "lucide-react";
 
 import { FiGithub, FiLinkedin, FiTwitter } from "react-icons/fi";
@@ -31,6 +32,7 @@ import PROJECT_IMG_8 from "../assets/images/portfolio.png";
 export const TECH_STACK = [
   "JavaScript",
   "HTML5",
+  "Next.js",
   "Vite",,
   "React",
   "Redux",
@@ -202,6 +204,14 @@ export const JOURNEY_STEPS = [
     description:
       "Started coding Journey by taking admission to the course  ... B tech (CSE) in IES UNIVERSITY BHOPAL.",
     icon: Rocket,
+    color: "bg-orange-500",
+  },
+  {
+    year: "2026",
+    title: "Completed Graduation",
+    company: "IES University Bhopal",
+    description: "Completed B.Tech in Computer Science Engineering from IES University Bhopal.",
+    icon: GraduationCap,
     color: "bg-orange-500",
   },
   
