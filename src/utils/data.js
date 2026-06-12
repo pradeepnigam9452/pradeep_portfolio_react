@@ -15,7 +15,7 @@ import {
   Mail,
   MapPin,
   Phone,
-  GraduationCap
+  
 } from "lucide-react";
 
 import { FiGithub, FiLinkedin, FiTwitter } from "react-icons/fi";
