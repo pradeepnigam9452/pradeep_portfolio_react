@@ -23,17 +23,19 @@ import { FiGithub, FiLinkedin, FiTwitter } from "react-icons/fi";
 // ===================== IMAGE IMPORTS =====================
 import PROJECT_IMG_1 from "../assets/images/ct.png";
 import PROJECT_IMG_2 from "../assets/images/task.png";
-import PROJECT_IMG_4 from "../assets/images/weather-app.png";
+import PROJECT_IMG_4 from "../assets/images/wethere.png";
 import PROJECT_IMG_6 from "../assets/images/book.png"
 import PROJECT_IMG_7 from "../assets/images/pro.png";
 import PROJECT_IMG_8 from "../assets/images/portfolio.png";
 import PROJECT_IMG_9 from "../assets/images/demo1.png"
+import PROJECT_IMG_10 from "../assets/images/food.png"
+import PROJECT_IMG_11 from "../assets/images/gocart.png" 
 // ===================== TECH STACK =====================
 export const TECH_STACK = [
   "JavaScript",
   "HTML5",
   "Next.js",
-  "Vite",,
+  "Vite",
   "React",
   "Redux",
   "Tailwind CSS",
@@ -99,95 +101,10 @@ export const CERTIFICATES = [
 
 
 
-// ===================== PROJECTS =====================
+
+
+
 // export const PROJECTS = [
-//    {
-//     id: 1,
-//     title: "DemoTech technologic ",
-//     description:
-//       "A Property finder web app where we can easily find new Property .",
-//     image: PROJECT_IMG_9,
-//     tags: ["Node.js  express.js , ejs , mongoDB"],
-//     liveUrl: "https://demotech-one.vercel.app",
-//     githubUrl: "https://demotech-one.vercel.app",
-//     featured: true,
-//     category: "Mern Stack",
-//   },
-//   {
-//     id: 1,
-//     title: "Property Finder ",
-//     description:
-//       "A Property finder web app where we can easily find new Property .",
-//     image: PROJECT_IMG_7,
-//     tags: ["Node.js  express.js , ejs , mongoDB"],
-//     liveUrl: "https://property-finder-rose.vercel.app/listings",
-//     githubUrl: "https://property-finder-rose.vercel.app/listings",
-//     featured: true,
-//     category: "Full Stack",
-//   },
-//   {
-//     id: 2,
-//     title: "Personal Portfolio ",
-//     description:
-//       "A personal portfolio built with React and Tailwind CSS.",
-//     image: PROJECT_IMG_8,
-//     tags: ["react js"],
-//      liveUrl: "#",
-//     githubUrl: "https://github.com/pradeepnigam9452",
-//     featured: true,
-//     category: "Full Stack",
-//   },
-//    {
-//     id: 4,
-//     title: "Weather App",
-//     description:
-//       "Developed a responsive weather app with city/postcode search, autocomplete functionality, and dynamic UI that adapts to weather conditions.",
-//     image: PROJECT_IMG_4,
-//     tags: ["HTML 5", "CSS","JavaScript","WeatherAPI"],
-//     liveUrl: "",
-//     githubUrl: "",
-//     featured: false,
-//     category: "Web App",
-//   },
-//   {
-//     id: 5,
-//     title: "Book store",
-//     description:
-//       "Developed a responsive Book-store app with  search, autocomplete functionality, and dynamic UI that adapts to weather conditions.",
-//     image: PROJECT_IMG_6,
-//     tags: ["react", "Node js","express js","mongodb"],
-//     liveUrl: " https://bo-ok-store-iaku.vercel.app/",
-//     githubUrl: "https://github.com/pradeepnigam9452",
-//     featured: true,
-//     category: "Web App",
-//   },
-//    {id: 6,
-//     title: "Coaching-center-management",
-//     description:
-//      "A project designed to manage coaching center operations such as students, courses, batches, and staff in an efficient way.",
-//     image: PROJECT_IMG_1,
-//     tags: ["HTML 5", "CSS", "JavaScript","WebScoket","ExpressJs"],
-//     liveUrl: "https://ct-coaching.vercel.app/",
-//     githubUrl: "",
-//     featured: true,
-//     category: "Full Stack",
-//   },
-  
-//    {
-    
-//     id: 8,
-//      title: "task management",
-//     description:
-//       "Build a custom web-based.Secure login with session handling ,Full CRUD operations, for task management.",
-//     image: PROJECT_IMG_2,
-//     tags: ["Node.js , express.js ,mongoDb , react.js"],
-//      liveUrl: "https://task-app-frontend-woad.vercel.app/",
-//     githubUrl: "",
-//     featured: false,
-//     category: "Full Stack",
-//   }
- 
-// ];
 
 
 export const PROJECTS = [
@@ -195,10 +112,10 @@ export const PROJECTS = [
     id: 1,
     title: "DemoTech Technology",
     description:
-      "A full-stack web application built to provide a modern and responsive user experience with efficient backend and database integration.",
+      "A full-stack web application that delivers a modern and responsive user experience with efficient backend and database integration.",
     image: PROJECT_IMG_9,
     tags: ["React.js", "Node.js", "Express.js", "MongoDB"],
-    liveUrl: "https://demotech-one.vercel.app",
+    liveUrl: "https://demotech-one.vercel.app/",
     githubUrl: "",
     featured: true,
     category: "MERN Stack",
@@ -207,7 +124,7 @@ export const PROJECTS = [
     id: 2,
     title: "Property Finder",
     description:
-      "A property finder web application that allows users to explore and find properties through an easy-to-use interface.",
+      "A property discovery platform that allows users to browse, search, and explore property listings through an easy-to-use interface.",
     image: PROJECT_IMG_7,
     tags: ["Node.js", "Express.js", "EJS", "MongoDB"],
     liveUrl: "https://property-finder-rose.vercel.app/listings",
@@ -219,31 +136,55 @@ export const PROJECTS = [
     id: 3,
     title: "Personal Portfolio",
     description:
-      "A responsive personal portfolio showcasing my projects, technical skills, experience, and development work.",
+      "A responsive personal portfolio showcasing my projects, technical skills, professional experience, and development work.",
     image: PROJECT_IMG_8,
     tags: ["React.js", "Tailwind CSS", "JavaScript"],
-    liveUrl: "",
+    liveUrl: "https://pradeepnigam.vercel.app/",
     githubUrl: "https://github.com/pradeepnigam9452",
     featured: true,
     category: "Frontend",
   },
   {
     id: 4,
+    title: "GoCard",
+    description:
+      "A responsive e-commerce application that allows users to explore products, manage their cart, and enjoy a smooth shopping experience.",
+    image: PROJECT_IMG_11,
+    tags: ["Next.js", "Tailwind CSS", "JavaScript"],
+    liveUrl: "https://gocart-wine-pi.vercel.app/",
+    githubUrl: "",
+    featured: true,
+    category: "E-Commerce",
+  },
+  {
+    id: 5,
+    title: "Food Ordering App",
+    description:
+      "A responsive food-ordering application that allows users to explore food items and interact with a clean, user-friendly interface.",
+    image: PROJECT_IMG_10,
+    tags: ["Next.js", "Tailwind CSS", "JavaScript"],
+    liveUrl: "https://food-ten-indol.vercel.app/",
+    githubUrl: "",
+    featured: true,
+    category: "Web App",
+  },
+  {
+    id: 6,
     title: "Weather App",
     description:
-      "A responsive weather application with city and postcode search, autocomplete, real-time weather data, and a dynamic interface.",
+      "A responsive weather application featuring city and postcode search, autocomplete suggestions, real-time weather data, and a dynamic interface.",
     image: PROJECT_IMG_4,
-    tags: ["HTML5", "CSS", "JavaScript", "WeatherAPI"],
+    tags: ["HTML5", "CSS3", "JavaScript", "WeatherAPI"],
     liveUrl: "",
     githubUrl: "",
     featured: false,
     category: "Web App",
   },
   {
-    id: 5,
+    id: 7,
     title: "Book Store",
     description:
-      "A full-stack bookstore application that allows users to browse and search books through a responsive and user-friendly interface.",
+      "A full-stack bookstore application that allows users to browse and search for books through a responsive and user-friendly interface.",
     image: PROJECT_IMG_6,
     tags: ["React.js", "Node.js", "Express.js", "MongoDB"],
     liveUrl: "https://bo-ok-store-iaku.vercel.app/",
@@ -252,22 +193,22 @@ export const PROJECTS = [
     category: "MERN Stack",
   },
   {
-    id: 6,
+    id: 8,
     title: "Coaching Center Management",
     description:
-      "A management system designed to handle coaching center operations including students, courses, batches, staff, and real-time communication.",
+      "A management system designed to handle coaching-center operations, including students, courses, batches, staff, and real-time communication.",
     image: PROJECT_IMG_1,
-    tags: ["HTML5", "CSS", "JavaScript", "WebSocket", "Express.js"],
+    tags: ["HTML5", "CSS3", "JavaScript", "WebSocket", "Express.js"],
     liveUrl: "https://ct-coaching.vercel.app/",
     githubUrl: "",
     featured: true,
     category: "Full Stack",
   },
   {
-    id: 7,
+    id: 9,
     title: "Task Management",
     description:
-      "A full-stack task management application with secure authentication, session handling, and complete CRUD operations for managing tasks.",
+      "A full-stack task management application featuring secure authentication, session handling, and complete CRUD operations.",
     image: PROJECT_IMG_2,
     tags: ["React.js", "Node.js", "Express.js", "MongoDB"],
     liveUrl: "https://task-app-frontend-woad.vercel.app/",
@@ -276,6 +217,115 @@ export const PROJECTS = [
     category: "MERN Stack",
   },
 ];
+//   {
+//     id: 1,
+//     title: "DemoTech Technology",
+//     description:
+//       "A full-stack web application built to provide a modern and responsive user experience with efficient backend and database integration.",
+//     image: PROJECT_IMG_9,
+//     tags: ["React.js", "Node.js", "Express.js", "MongoDB"],
+//     liveUrl: "https://demotech-one.vercel.app",
+//     githubUrl: "",
+//     featured: true,
+//     category: "MERN Stack",
+//   },
+//   {
+//     id: 2,
+//     title: "Property Finder",
+//     description:
+//       "A property finder web application that allows users to explore and find properties through an easy-to-use interface.",
+//     image: PROJECT_IMG_7,
+//     tags: ["Node.js", "Express.js", "EJS", "MongoDB"],
+//     liveUrl: "https://property-finder-rose.vercel.app/listings",
+//     githubUrl: "",
+//     featured: true,
+//     category: "Full Stack",
+//   },
+//   {
+//     id: 3,
+//     title: "Personal Portfolio",
+//     description:
+//       "A responsive personal portfolio showcasing my projects, technical skills, experience, and development work.",
+//     image: PROJECT_IMG_8,
+//     tags: ["React.js", "Tailwind CSS", "JavaScript"],
+//     liveUrl: "",
+//     githubUrl: "https://github.com/pradeepnigam9452",
+//     featured: true,
+//     category: "Frontend",
+//   },
+//    {
+//     id: 4,
+//     title: "Gocard ",
+//     description:
+//       "e comm app",
+//     image: PROJECT_IMG_10,
+//     tags: ["Next js ,Tailwind "],
+//     liveUrl: "https://food-ten-indol.vercel.app/",
+//     githubUrl: "https://food-ten-indol.vercel.app/",
+//     featured: true,
+//     category: "Web App",
+//   },
+//   {
+//     id: 4,
+//     title: "Weather App",
+//     description:
+//       "A responsive weather application with city and postcode search, autocomplete, real-time weather data, and a dynamic interface.",
+//     image: PROJECT_IMG_4,
+//     tags: ["HTML5", "CSS", "JavaScript", "WeatherAPI"],
+//     liveUrl: "",
+//     githubUrl: "",
+//     featured: false,
+//     category: "Web App",
+//   },
+//     {
+//     id: 4,
+//     title: "food app App",
+//     description:
+//       "A responsive weather application with city and postcode search, autocomplete, real-time weather data, and a dynamic interface.",
+//     image: PROJECT_IMG_4,
+//     tags: ["HTML5", "CSS", "JavaScript", "WeatherAPI"],
+//     liveUrl: "https://food-ten-indol.vercel.app/",
+//     githubUrl: "https://food-ten-indol.vercel.app/",
+//     featured: true,
+//     category: "Web App",
+//   },
+//   {
+//     id: 5,
+//     title: "Book Store",
+//     description:
+//       "A full-stack bookstore application that allows users to browse and search books through a responsive and user-friendly interface.",
+//     image: PROJECT_IMG_6,
+//     tags: ["React.js", "Node.js", "Express.js", "MongoDB"],
+//     liveUrl: "https://bo-ok-store-iaku.vercel.app/",
+//     githubUrl: "https://github.com/pradeepnigam9452",
+//     featured: true,
+//     category: "MERN Stack",
+//   },
+//   {
+//     id: 6,
+//     title: "Coaching Center Management",
+//     description:
+//       "A management system designed to handle coaching center operations including students, courses, batches, staff, and real-time communication.",
+//     image: PROJECT_IMG_1,
+//     tags: ["HTML5", "CSS", "JavaScript", "WebSocket", "Express.js"],
+//     liveUrl: "https://ct-coaching.vercel.app/",
+//     githubUrl: "",
+//     featured: true,
+//     category: "Full Stack",
+//   },
+//   {
+//     id: 7,
+//     title: "Task Management",
+//     description:
+//       "A full-stack task management application with secure authentication, session handling, and complete CRUD operations for managing tasks.",
+//     image: PROJECT_IMG_2,
+//     tags: ["React.js", "Node.js", "Express.js", "MongoDB"],
+//     liveUrl: "https://task-app-frontend-woad.vercel.app/",
+//     githubUrl: "",
+//     featured: false,
+//     category: "MERN Stack",
+//   },
+// ];
 
 // ===================== JOURNEY =====================
 export const JOURNEY_STEPS = [
