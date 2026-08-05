@@ -30,6 +30,17 @@ import PROJECT_IMG_8 from "../assets/images/portfolio.png";
 import PROJECT_IMG_9 from "../assets/images/demo1.png"
 import PROJECT_IMG_10 from "../assets/images/food.png"
 import PROJECT_IMG_11 from "../assets/images/gocart.png" 
+
+// live project image 
+
+import Live_img_1 from "../assets/live/live (3).png"
+import Live_img_2 from "../assets/live/live (2).png"
+import Live_img_3 from "../assets/live/live (1).png"
+import Live_img_4 from "../assets/live/live (4).png"
+import Live_img_5 from "../assets/live/live (5).png"
+
+
+
 // ===================== TECH STACK =====================
 export const TECH_STACK = [
   "JavaScript",
@@ -99,12 +110,71 @@ export const CERTIFICATES = [
  
 ];
 
-
-
-
-
-
-// export const PROJECTS = [
+export const livePROJECTS = [
+  {
+    id: 1,
+    title: "Binarylogix Technology LLP Portfolio",
+    description:
+      "A full-stack company portfolio and staff-management platform featuring project showcases, career opportunities, attendance tracking, and administrative tools.",
+    image: Live_img_1,
+    tags: ["React.js", "Node.js", "Express.js", "MongoDB"],
+    liveUrl: "https://www.portfolio.binarylogix.in/careers",
+    githubUrl: "",
+    featured: true,
+    category: "MERN Stack",
+  },
+  {
+    id: 2,
+    title: "WPIFD",
+    description:
+      "A property-discovery platform that allows users to browse, search, and explore property listings through an intuitive interface.",
+    image: Live_img_2,
+    tags: ["Node.js", "Express.js", "React.js", "MongoDB"],
+    liveUrl: "https://www.wpifd.com/",
+    githubUrl: "",
+    featured: true,
+    category: "Full Stack",
+  },
+  {
+    id: 3,
+    title: "SaloonWala",
+    description:
+      "A responsive salon-services platform that helps users explore salon services and connect with beauty professionals through a user-friendly interface.",
+    image: Live_img_3,
+    tags: ["React.js"],
+    liveUrl: "https://www.saloonwala.in/",
+    githubUrl: "",
+    featured: true,
+    category: "Frontend",
+  },
+  {
+    id: 4,
+    title: "Vedvani",
+    description:
+      "A spiritual platform where users can explore pujas, understand their benefits, select puja types, and book religious services online.",
+    image: Live_img_4,
+    tags: ["React.js", "Node.js", "Express.js", "MongoDB"],
+    liveUrl: "https://vedvani.org/",
+    githubUrl: "",
+    featured: true,
+    category: "MERN Stack",
+  },
+  {
+    id: 5,
+    title: "Best Advocate Bhopal",
+    description:
+      "A professional legal-services website that presents advocate expertise, practice areas, consultation details, and contact information.",
+    image: Live_img_5,
+    tags: ["Node.js", "React.js","Tailwind CSS", "JavaScript"],
+    liveUrl: "https://www.bestadvocatebhopal.com/",
+    githubUrl: "",
+    featured: true,
+    category: "Business Website",
+  },
+ 
+ 
+ 
+];
 
 
 export const PROJECTS = [
@@ -217,115 +287,7 @@ export const PROJECTS = [
     category: "MERN Stack",
   },
 ];
-//   {
-//     id: 1,
-//     title: "DemoTech Technology",
-//     description:
-//       "A full-stack web application built to provide a modern and responsive user experience with efficient backend and database integration.",
-//     image: PROJECT_IMG_9,
-//     tags: ["React.js", "Node.js", "Express.js", "MongoDB"],
-//     liveUrl: "https://demotech-one.vercel.app",
-//     githubUrl: "",
-//     featured: true,
-//     category: "MERN Stack",
-//   },
-//   {
-//     id: 2,
-//     title: "Property Finder",
-//     description:
-//       "A property finder web application that allows users to explore and find properties through an easy-to-use interface.",
-//     image: PROJECT_IMG_7,
-//     tags: ["Node.js", "Express.js", "EJS", "MongoDB"],
-//     liveUrl: "https://property-finder-rose.vercel.app/listings",
-//     githubUrl: "",
-//     featured: true,
-//     category: "Full Stack",
-//   },
-//   {
-//     id: 3,
-//     title: "Personal Portfolio",
-//     description:
-//       "A responsive personal portfolio showcasing my projects, technical skills, experience, and development work.",
-//     image: PROJECT_IMG_8,
-//     tags: ["React.js", "Tailwind CSS", "JavaScript"],
-//     liveUrl: "",
-//     githubUrl: "https://github.com/pradeepnigam9452",
-//     featured: true,
-//     category: "Frontend",
-//   },
-//    {
-//     id: 4,
-//     title: "Gocard ",
-//     description:
-//       "e comm app",
-//     image: PROJECT_IMG_10,
-//     tags: ["Next js ,Tailwind "],
-//     liveUrl: "https://food-ten-indol.vercel.app/",
-//     githubUrl: "https://food-ten-indol.vercel.app/",
-//     featured: true,
-//     category: "Web App",
-//   },
-//   {
-//     id: 4,
-//     title: "Weather App",
-//     description:
-//       "A responsive weather application with city and postcode search, autocomplete, real-time weather data, and a dynamic interface.",
-//     image: PROJECT_IMG_4,
-//     tags: ["HTML5", "CSS", "JavaScript", "WeatherAPI"],
-//     liveUrl: "",
-//     githubUrl: "",
-//     featured: false,
-//     category: "Web App",
-//   },
-//     {
-//     id: 4,
-//     title: "food app App",
-//     description:
-//       "A responsive weather application with city and postcode search, autocomplete, real-time weather data, and a dynamic interface.",
-//     image: PROJECT_IMG_4,
-//     tags: ["HTML5", "CSS", "JavaScript", "WeatherAPI"],
-//     liveUrl: "https://food-ten-indol.vercel.app/",
-//     githubUrl: "https://food-ten-indol.vercel.app/",
-//     featured: true,
-//     category: "Web App",
-//   },
-//   {
-//     id: 5,
-//     title: "Book Store",
-//     description:
-//       "A full-stack bookstore application that allows users to browse and search books through a responsive and user-friendly interface.",
-//     image: PROJECT_IMG_6,
-//     tags: ["React.js", "Node.js", "Express.js", "MongoDB"],
-//     liveUrl: "https://bo-ok-store-iaku.vercel.app/",
-//     githubUrl: "https://github.com/pradeepnigam9452",
-//     featured: true,
-//     category: "MERN Stack",
-//   },
-//   {
-//     id: 6,
-//     title: "Coaching Center Management",
-//     description:
-//       "A management system designed to handle coaching center operations including students, courses, batches, staff, and real-time communication.",
-//     image: PROJECT_IMG_1,
-//     tags: ["HTML5", "CSS", "JavaScript", "WebSocket", "Express.js"],
-//     liveUrl: "https://ct-coaching.vercel.app/",
-//     githubUrl: "",
-//     featured: true,
-//     category: "Full Stack",
-//   },
-//   {
-//     id: 7,
-//     title: "Task Management",
-//     description:
-//       "A full-stack task management application with secure authentication, session handling, and complete CRUD operations for managing tasks.",
-//     image: PROJECT_IMG_2,
-//     tags: ["React.js", "Node.js", "Express.js", "MongoDB"],
-//     liveUrl: "https://task-app-frontend-woad.vercel.app/",
-//     githubUrl: "",
-//     featured: false,
-//     category: "MERN Stack",
-//   },
-// ];
+
 
 // ===================== JOURNEY =====================
 export const JOURNEY_STEPS = [
